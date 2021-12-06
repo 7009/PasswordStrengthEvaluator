@@ -2,9 +2,9 @@ import random
 import csv
 
 a = "abcdefghijklmnopqrstuvwxyz"
-number = "1234567890"
-Symbols = '!@#$%^&*(){}[]'
-Alphabets = a.upper() + a.lower() + number + Symbols
+digit = "1234567890"
+specialSymbols = '!@#$%^&*(){}[]'
+Alphabets = a.upper() + a.lower() + digit + specialSymbols
 
 with open('trainingData.txt', 'w') as txtfile:
     for i in range(1000):
